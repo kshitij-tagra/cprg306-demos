@@ -41,10 +41,10 @@ export default function Page() {
 
   const handleClick = (id) => {
     alert(id);
-  }
+  };
 
   return (
-    <div className="sm:bg-slate-500 md:bg-slate-200 bg-slate-600">
+    <div className="sm:bg-slate-500 md:bg-slate-700 bg-slate-600">
       <h1>Week 5 Dog Demo</h1>
       <ul>
         {dogs.map((dog) => (
